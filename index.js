@@ -1,6 +1,6 @@
 $(function () {
     $(".liList").hide();
     $(".list > li > a").click(function () {
-        $(this).addClass("current").parent().siblings().children("a").removeClass("current");
+        $(this).addClass("current").siblings().show().parent().siblings().children("a").removeClass("current").next().hide();
     });
 });

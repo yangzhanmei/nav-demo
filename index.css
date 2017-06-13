@@ -40,4 +40,23 @@ a {
     background: #333;
 }
 
+.liList {
+    height: auto;
+    margin: 0 auto;
+    list-style-type: none;
+    background-color: #333;
+}
+
+.liList span{
+    color: #aaa;
+    line-height: 25px;
+    display: block;
+    text-align: center;
+    cursor: pointer;
+}
+
+.liList span:hover{
+    background: #aaa;
+    color: white;
+}
 
